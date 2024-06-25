@@ -1,0 +1,85 @@
+/* .query-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: "100%";
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+    max-width: 1000px;
+  }
+  
+  .input-container input,
+  .input-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .queries-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .query-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+   */
+
+   .query-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+    max-width: 1000px;
+  }
+  
+  .input-container input,
+  .input-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .input-container .attribute-input {
+    width: 80%; /* Make the first input field take up 80% of the screen width */
+  }
+  
+  .queries-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .query-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+  
+  .query-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
